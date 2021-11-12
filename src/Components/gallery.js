@@ -22,7 +22,7 @@ const images = [
 
 class Gallery extends React.Component {
   render() {
-    return <ImageGallery items={images} showPlayButton={false} disableSwipe={true} />;
+    return <ImageGallery items={images} showPlayButton={false} flickThreshold={0.6} />;
   }
 }
 
